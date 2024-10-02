@@ -74,7 +74,7 @@ pipeline{
                 script {
                     withCredentials(
                         [usernamePassword(
-                            credentialsId: 'Sun-SDPX-To', 
+                            credentialsId: 'Sun-SDPX-Token', 
                             usernameVariable: 'GITHUB_USER', 
                             passwordVariable: 'GITHUB_PASSWORD'
                         )]
